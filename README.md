@@ -1,5 +1,5 @@
-[![License](https://img.shields.io/badge/license-GPLv3-brightgreen.svg)](LICENSE)
-[![](https://img.shields.io/badge/Supports%20Packer%20Version-1.0.0-blue.svg)](https://github.com/hashicorp/packer/blob/v1.0.0/CHANGELOG.md)
+[![](https://img.shields.io/badge/Supports%20Packer%20Version-1.0.2-blue.svg)](https://github.com/hashicorp/packer/blob/v1.0.2/CHANGELOG.md)
+[![](https://img.shields.io/badge/Supports%20Packer%20Version-1.0.2-blue.svg)](https://github.com/hashicorp/packer/blob/v1.0.2/CHANGELOG.md)
 
 # Overview: pgporada.packer
 
