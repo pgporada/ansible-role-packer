@@ -1,0 +1,12 @@
+---
+- hosts: localhost
+  gather_facts: true
+  become: true
+  become_method: sudo
+
+  vars:
+    packer_version: 1.0.2
+
+  roles:
+    - ansible-role-packer
+...

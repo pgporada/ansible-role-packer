@@ -1,0 +1,7 @@
+.kitchen/
+*.nomad
+.kitchen.local.yml
+.molecule/
+.vagrant/
+test/*.retry
+*.retry

@@ -1,0 +1,31 @@
+---
+galaxy_info:
+  author: Phil Porada
+  description: Installs Packer
+  company: My Tall Guy
+  min_ansible_version: 2.3
+  license: gplv3
+  platforms:
+    - name: EL
+      versions:
+        - 6
+        - 7
+    - name: Debian
+      versions:
+        - jessie
+        - wheezy
+        - sid
+    - name: Ubuntu
+      versions:
+        - trusty
+        - xenial
+  categories:
+    - automation
+    - packer
+    - virtual-machine
+    - virtual
+    - vm
+    - hashicorp
+
+dependencies: []
+...
