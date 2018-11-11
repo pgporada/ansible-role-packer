@@ -6,7 +6,7 @@
 }
 
 @test "packer is the version specified" {
-    if [ "$(echo "packer_version: $(packer -version)")" == "packer_version: 1.1.3" ]; then
+    if [ "$(echo "packer_version: $(packer -version)")" == "packer_version: 1.3.2" ]; then
         status=0
     else
         status=1
