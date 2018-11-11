@@ -9,7 +9,7 @@
     - unzip
 
 - name: Check for previously installed and executable packer
-  shell: "packer version | head -n1 | awk '{print $2}' | awk -F'-' '{print $1}' | sed 's/v//'"
+  shell: "OUTPUT=\"$(packer version)\"; echo \"${OUTPUT}\" | head -n1 | awk '{print $2}' | awk -F'-' '{print $1}' | sed 's/v//'"
   changed_when: False
   failed_when: False
   register: prior_packer_version
