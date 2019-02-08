@@ -1,6 +1,6 @@
 ![pgporada.packer](https://img.shields.io/badge/role-pgporada.packer-yellow.svg)
 [![License](https://img.shields.io/badge/license-GPLv3-brightgreen.svg)](LICENSE)
-[![](https://img.shields.io/badge/Supports%20Packer%20Version-1.3.2-blue.svg)](https://github.com/hashicorp/packer/blob/v1.3.2/CHANGELOG.md)
+[![](https://img.shields.io/badge/Supports%20Packer%20Version-1.3.4-blue.svg)](https://github.com/hashicorp/packer/blob/v1.3.4/CHANGELOG.md)
 
 # Overview: pgporada.packer
 
@@ -11,7 +11,7 @@ One less thing for me to have to go out to the internet to grab when setting up 
 
 Installs the specified version of [Hashicorp_Packer](https://packer.io).
 
-    packer_version: 1.3.2
+    packer_version: 1.3.4
 
 - - - -
 # Example Playbook
